@@ -6,6 +6,6 @@ This repository provides multiple make_* Python scripts, each one creates specif
 
 The /xmlschema folder may hold NewsML-G2 schema files, the /output folder is the target for data files created by any script.
 
-All these scripts are made for XML schema files as specification of an [IPTC NewsML-G2](https://iptc.org/standards/newsml-g2/) version. The XML schema files can be obtained from the IPTC webserver: start in the [NewsML-G2 branch](https://www.iptc.org/std/NewsML-G2/), select a version and go there to the specification folder. 
+All these scripts are made for XML schema files used as specification of an [IPTC NewsML-G2](https://iptc.org/standards/newsml-g2/) version. The XML schema files can be obtained from the IPTC webserver: start in the [NewsML-G2 branch](https://www.iptc.org/std/NewsML-G2/), select a version and go there to the specification folder. 
 
 
