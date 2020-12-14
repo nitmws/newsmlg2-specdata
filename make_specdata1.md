@@ -11,7 +11,7 @@ This script reads an IPTC NewsML-G2 XML schema file in the /xmlschema folder and
     
 * ng2-specdata1_of-schema_{schema filename}.json: a JSON object, each XML element is a property at the top level with an object as value. Each element object reflects:
     * the XML schema name of the property. Be aware that the XML Schema may specify multiple elements with the same name. In this case the first occurrence has the XML element name as property name, all other occurrences got a '_{number}' appended.
-    * a property named 'attributes'. Its value is an object reflecting all attributes specified for this element. The object property name is the XML attribute name, its value is a sequence of the data type and the cardinality of the attribute, separated by a |.
+    * a property named 'attributes'. Its value is an object reflecting all attributes specified for this element. The object property name is the XML attribute name, its value is a sequence of the data type and the cardinality of the attribute, separated by a |. The value 'NA' indicates that a data type or cardinality of this attribute is not available in the XML schema file.
     
 ## How to use
 
