@@ -3,6 +3,7 @@
     "name": "conceptItem",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "standard": "xs:string|required",
       "standardversion": "NA|required",
       "conformance": "xs:string|optional",
@@ -24,13 +25,15 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "knowledgeItem": {
     "name": "knowledgeItem",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "standard": "xs:string|required",
       "standardversion": "NA|required",
       "conformance": "xs:string|optional",
@@ -52,7 +55,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "conceptSet": {
@@ -121,13 +125,15 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "newsItem": {
     "name": "newsItem",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "standard": "xs:string|required",
       "standardversion": "NA|required",
       "conformance": "xs:string|optional",
@@ -149,7 +155,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "contentSet": {
@@ -219,6 +226,7 @@
       "videodefinition": "QCodeType|optional",
       "videodefinitionuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "encoding": "QCodeType|NA",
@@ -292,7 +300,8 @@
       "videoscalinguri": "IRIType|optional",
       "videodefinition": "QCodeType|optional",
       "videodefinitionuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "inlineData": {
@@ -362,6 +371,7 @@
       "videodefinition": "QCodeType|optional",
       "videodefinitionuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "encoding": "QCodeType|NA",
       "encodinguri": "IRIType|NA"
     }
@@ -543,13 +553,15 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "packageItem": {
     "name": "packageItem",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "standard": "xs:string|required",
       "standardversion": "NA|required",
       "conformance": "xs:string|optional",
@@ -571,7 +583,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "groupSet": {
@@ -594,6 +607,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "idref": "xs:IDREF|required",
       "role": "QCodeType|NA",
       "roleuri": "IRIType|NA",
@@ -622,6 +636,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "idref": "xs:IDREF|required",
       "role": "QCodeType|NA",
       "roleuri": "IRIType|NA",
@@ -665,6 +680,7 @@
       "validfrom": "DateOptTimeType|optional",
       "validto": "DateOptTimeType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -702,7 +718,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "groupExtProperty": {
@@ -732,13 +749,15 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "planningItem": {
     "name": "planningItem",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "standard": "xs:string|required",
       "standardversion": "NA|required",
       "conformance": "xs:string|optional",
@@ -760,7 +779,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "newsCoverageSet": {
@@ -783,6 +803,7 @@
     "name": "catalogItem",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "standard": "xs:string|required",
       "standardversion": "NA|required",
       "conformance": "xs:string|optional",
@@ -804,7 +825,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "catalogContainer": {
@@ -1063,7 +1085,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "itemSet": {
@@ -1197,6 +1220,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "validfrom": "DateOptTimeType|optional",
       "validto": "DateOptTimeType|optional",
       "idrefs": "xs:IDREFS|optional",
@@ -1225,7 +1249,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "copyrightHolder": {
@@ -1247,7 +1272,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "copyrightNotice": {
@@ -1266,6 +1292,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA"
@@ -1287,6 +1314,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA"
@@ -1319,7 +1347,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "rightsExpressionXML": {
@@ -1371,13 +1400,15 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "itemClass": {
     "name": "itemClass",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -1412,7 +1443,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "versionCreated": {
@@ -1467,6 +1499,7 @@
     "name": "pubStatus",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -1486,6 +1519,7 @@
     "name": "role",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -1533,6 +1567,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "role": "QCodeType|NA",
       "roleuri": "IRIType|NA"
     }
@@ -1552,13 +1587,15 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "service": {
     "name": "service",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -1589,6 +1626,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA"
@@ -1613,7 +1651,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "instanceOf": {
@@ -1635,7 +1674,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "signal": {
@@ -1658,6 +1698,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "severity": "QCodeType|optional",
       "severityuri": "IRIType|optional"
     }
@@ -1709,6 +1750,7 @@
       "validfrom": "DateOptTimeType|optional",
       "validto": "DateOptTimeType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -1826,7 +1868,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "link": {
@@ -1848,6 +1891,7 @@
       "validfrom": "DateOptTimeType|optional",
       "validto": "DateOptTimeType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -1893,7 +1937,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "urgency": {
@@ -2010,7 +2055,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "infoSource": {
@@ -2034,7 +2080,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "creator": {
@@ -2060,7 +2107,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "contributor": {
@@ -2086,7 +2134,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "audience": {
@@ -2112,7 +2161,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "exclAudience": {
@@ -2138,7 +2188,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "altId": {
@@ -2156,6 +2207,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "environment": "QCodeListType|optional",
@@ -2248,7 +2300,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "genre": {
@@ -2274,6 +2327,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "rank": "xs:nonNegativeInteger|optional"
     }
   },
@@ -2292,6 +2346,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "rank": "xs:nonNegativeInteger|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional",
@@ -2322,6 +2377,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "rank": "xs:nonNegativeInteger|optional"
     }
   },
@@ -2340,6 +2396,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "rank": "xs:nonNegativeInteger|optional",
       "separator": "xs:string|optional",
       "role": "QCodeType|optional",
@@ -2363,6 +2420,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional",
       "media": "xs:NMTOKENS|optional",
@@ -2386,6 +2444,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional",
       "media": "xs:NMTOKENS|optional",
@@ -2407,6 +2466,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional",
       "media": "xs:NMTOKENS|optional",
@@ -2428,6 +2488,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "rank": "xs:nonNegativeInteger|optional"
     }
   },
@@ -2446,6 +2507,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA",
@@ -2481,7 +2543,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "partMeta": {
@@ -2499,6 +2562,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "start": "xs:string|required",
       "end": "xs:string|required",
       "timeunit": "QCodeType|NA",
@@ -2560,6 +2624,7 @@
     "name": "role",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -2602,7 +2667,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "assert": {
@@ -2620,6 +2686,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "qcode": "QCodeType|optional",
       "uri": "IRIType|optional",
       "literal": "g2normalizedString|optional"
@@ -2645,6 +2712,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "confidence": "Int100Type|optional",
       "relevance": "Int100Type|optional",
       "derivedfrom": "QCodeListType|optional",
@@ -2671,6 +2739,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "idrefs": "xs:IDREFS|NA"
     }
   },
@@ -2707,6 +2776,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional",
       "media": "xs:NMTOKENS|optional"
@@ -2748,6 +2818,7 @@
       "relevance": "Int100Type|optional",
       "derivedfrom": "QCodeListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "type": "QCodeType|NA",
       "typeuri": "IRIType|NA",
       "significance": "Int100Type|NA"
@@ -2805,7 +2876,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "facetConcept": {
@@ -2836,7 +2908,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "altLoc": {
@@ -2889,7 +2962,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "conceptId": {
@@ -2916,6 +2990,7 @@
     "name": "type",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -2951,7 +3026,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "definition": {
@@ -2969,6 +3045,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA",
@@ -2991,6 +3068,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA",
@@ -3018,6 +3096,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "validfrom": "DateOptTimeType|optional",
       "validto": "DateOptTimeType|optional",
       "rel": "QCodeType|optional",
@@ -3044,6 +3123,7 @@
       "validfrom": "DateOptTimeType|optional",
       "validto": "DateOptTimeType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -3083,7 +3163,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "broader": {
@@ -3114,7 +3195,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "narrower": {
@@ -3145,7 +3227,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "related": {
@@ -3176,7 +3259,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "conceptExtProperty": {
@@ -3206,7 +3290,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "related_2": {
@@ -3229,6 +3314,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "validfrom": "DateOptTimeType|optional",
       "validto": "DateOptTimeType|optional",
       "value": "xs:string|optional",
@@ -3311,7 +3397,8 @@
       "typeuri": "IRIType|optional",
       "role": "QCodeType|optional",
       "roleuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "contactInfo": {
@@ -3410,7 +3497,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "affiliation_2": {
@@ -3436,7 +3524,8 @@
       "typeuri": "IRIType|optional",
       "role": "QCodeType|optional",
       "roleuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "contactInfo_2": {
@@ -3658,7 +3747,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "role": "QCodeListType|NA",
       "roleuri": "IRIListType|NA",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "openHours": {
@@ -3676,6 +3766,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional",
       "media": "xs:NMTOKENS|optional"
@@ -3696,6 +3787,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional",
       "media": "xs:NMTOKENS|optional"
@@ -3734,6 +3826,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA"
@@ -3754,6 +3847,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA"
@@ -3861,6 +3955,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "confirmationstatus": "QCodeType|optional",
       "confirmationstatusuri": "IRIType|optional",
       "role": "QCodeType|NA",
@@ -3967,6 +4062,7 @@
     "name": "occurStatus",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -3986,6 +4082,7 @@
     "name": "newsCoverageStatus",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -4016,6 +4113,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA"
@@ -4025,6 +4123,7 @@
     "name": "accessStatus",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -4060,6 +4159,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "role": "QCodeType|NA",
       "roleuri": "IRIType|NA"
     }
@@ -4086,7 +4186,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "location_2": {
@@ -4109,6 +4210,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "role": "QCodeType|NA",
       "roleuri": "IRIType|NA"
     }
@@ -4134,7 +4236,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "organiser": {
@@ -4158,7 +4261,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "contactInfo_4": {
@@ -4234,7 +4338,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "scheduled": {
@@ -4259,6 +4364,7 @@
     "name": "service",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -4289,6 +4395,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA"
@@ -4436,7 +4543,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "role": "QCodeListType|NA",
       "roleuri": "IRIListType|NA",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "line_2": {
@@ -4454,6 +4562,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "role": "QCodeType|NA",
       "roleuri": "IRIType|NA"
     }
@@ -4478,6 +4587,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "role": "QCodeType|optional",
       "roleuri": "IRIType|optional"
     }
@@ -4502,6 +4612,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "role": "QCodeType|optional",
       "roleuri": "IRIType|optional"
     }
@@ -4525,7 +4636,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "postalCode": {
@@ -4542,7 +4654,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "worldRegion": {
@@ -4564,7 +4677,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "newsCoverage_2": {
@@ -4589,6 +4703,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "contenttype": "xs:string|optional",
       "contenttypestandardversion": "xs:string|optional",
       "contenttypevariant": "xs:string|optional",
@@ -4666,6 +4781,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "contenttype": "xs:string|optional",
       "contenttypestandardversion": "xs:string|optional",
       "contenttypevariant": "xs:string|optional",
@@ -4777,6 +4893,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "coversfrom": "DateOptTimeType|NA",
       "coversto": "DateOptTimeType|NA"
     }
@@ -4803,6 +4920,7 @@
     "name": "service",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -4833,6 +4951,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA"
@@ -4930,7 +5049,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "newsCoverageExtProperty": {
@@ -4960,7 +5080,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "delivery": {
@@ -4998,6 +5119,7 @@
       "validfrom": "DateOptTimeType|optional",
       "validto": "DateOptTimeType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -5036,6 +5158,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "target": "QCodeType|NA",
       "targeturi": "IRIType|NA",
       "timestamp": "DateOptTimeType|NA",
@@ -5062,6 +5185,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "target": "QCodeType|NA",
       "targeturi": "IRIType|NA",
       "timestamp": "DateOptTimeType|NA",
@@ -5087,13 +5211,15 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "action": {
     "name": "action",
     "attributes": {
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "id": "xs:ID|optional",
       "creator": "QCodeType|optional",
       "creatoruri": "IRIType|optional",
@@ -5193,7 +5319,8 @@
       "literal": "g2normalizedString|optional",
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "br": {
@@ -5227,6 +5354,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "class": "xs:string|optional",
       "href": "IRIType|optional",
       "hreflang": "xs:string|optional",
@@ -5249,6 +5377,7 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "class": "xs:string|optional"
     }
   },
@@ -5272,6 +5401,7 @@
       "type": "QCodeType|optional",
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
+      "xml:lang": "NA|optional",
       "confidence": "Int100Type|optional",
       "relevance": "Int100Type|optional",
       "derivedfrom": "QCodeListType|optional",
@@ -5292,7 +5422,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
-      "dir": "NA|optional"
+      "dir": "NA|optional",
+      "xml:lang": "NA|optional"
     }
   },
   "rb": {

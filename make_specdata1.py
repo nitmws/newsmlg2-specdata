@@ -8,6 +8,8 @@ from xml.etree import ElementTree as ET
 import json
 
 # constant values
+XMLSCHEMAFN = 'NewsML-G2_2.29-spec-All-Power.xsd'
+
 LOGFP = './output/make_specdata1_log.txt'
 MATRIXFP = './output/ng2-elemattrib-matrix.csv'
 SPECDATA1FN = './output/ng2-specdata1_of-schema_'
@@ -62,6 +64,17 @@ def get_attributedata(testnode):
         else:
             attrvaluestr += '|NA'
         attrdata[xsattr.attrib['name']] = attrvaluestr
+    for xsattr in testnode.findall('.//xs:attribute[@ref]', NS):
+        attrvaluestr = ''
+        if 'type' in xsattr.attrib:
+            attrvaluestr += xsattr.attrib['type']
+        else:
+            attrvaluestr += 'NA'
+        if 'use' in xsattr.attrib:
+            attrvaluestr += '|' + xsattr.attrib['use']
+        else:
+            attrvaluestr += '|NA'
+        attrdata[xsattr.attrib['ref']] = attrvaluestr
     return attrdata
 
 def complextypes_childelemnames(xsroot):
@@ -108,6 +121,8 @@ def process_ng2_schema(xmlschema_filename):
     logfile_addline('*** AttributeGroups')
     ng2attrgroupsdata = {}
     for xsattrgroup in xsroot.findall('.//xs:attributeGroup[@name]', NS):
+        if xsattrgroup.attrib['name'] == "i18nAttributes":
+            print('TESTSTOP')
         ng2attrgroupsdata[xsattrgroup.attrib['name']] = get_attributedata(xsattrgroup)
 
     ng2attrgroupnames = list(ng2attrgroupsdata.keys())
@@ -260,9 +275,8 @@ def create_specdata_asjson(ng2elemsdata, xmlschema_filename):
     Main function
 """
 logfile_setup()
-xmlschemafn = 'NewsML-G2_2.29-spec-All-Power.xsd'
-logfile_addline(xmlschemafn)
-ng2_specdata1 = process_ng2_schema(xmlschemafn)
+logfile_addline(XMLSCHEMAFN)
+ng2_specdata1 = process_ng2_schema(XMLSCHEMAFN)
 create_matrix(ng2_specdata1)
-create_specdata_asjson(ng2_specdata1, xmlschemafn)
-print('the END')
+create_specdata_asjson(ng2_specdata1, XMLSCHEMAFN)
+print('The END')

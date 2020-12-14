@@ -1,6 +1,6 @@
 # About make_specdata1.py
 
-This script reads an IPTC NewsML-G2 XML schema file and generates these files in the ./output folder:
+This script reads an IPTC NewsML-G2 XML schema file in the /xmlschema folder and generates these files in the ./output folder:
 
 * make_specdata1_log.txt: a text file logging which data were retrieved from the XML schema.
 * ng2-elemattrib-matrix.csv: all XML elements specified by NewsML-G2 have also a set of attributes. A table serialized by this CSV file has a row for each XML element and a column for each attribute used by any element. The cell of an element and an attribute tells if the attribute is specified for the element:
@@ -13,6 +13,13 @@ This script reads an IPTC NewsML-G2 XML schema file and generates these files in
     * the XML schema name of the property. Be aware that the XML Schema may specify multiple elements with the same name. In this case the first occurrence has the XML element name as property name, all other occurrences got a '_{number}' appended.
     * a property named 'attributes'. Its value is an object reflecting all attributes specified for this element. The object property name is the XML attribute name, its value is a sequence of the data type and the cardinality of the attribute, separated by a |.
     
+## How to use
+
+* The 'constant values' region at the top of the script provides the file path for output files - as explained above. This file path can be changed to another target folder and the filename may be changed.
+* The 'constant values' region includes the constant XMLSCHEMAFN: this is the file name of the NewsML-G2 XML schema in the /xmlschema folder to be processed by this script. The to-be-processed schema file must be copied to this folder by the user. (The NewsML-G2 2.29 XML schema file is provided as example by this repository.)  
+* The 'constant values' region includes the constant CSVSEP: this is a single character acting as separator of any CSV file. May be adjusted to the local culture.
+* As result of executing this script the files in the /output folder mentioned above should be created.
+
 ## TO-DOs
 
 These additional features are planned:
