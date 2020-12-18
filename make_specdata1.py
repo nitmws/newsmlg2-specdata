@@ -20,6 +20,7 @@ NS = {
         "nar": "http://iptc.org/std/nar/2006-10-01/",
         "iptc-x": "http://iptc.org/std/nar/schemaextensions/"
     }
+XSNS = "{http://www.w3.org/2001/XMLSchema}"
 
 """
     ***************************************************************************
@@ -89,6 +90,7 @@ def complextypes_childelemnames(xsroot):
         ng2cplxtypes[xscplxtype.attrib['name']] = childelemnames
     return ng2cplxtypes
 
+
 def get_allchildelems(xsroot, parentnode):
     # prerequisite: the lists of child elements in a complex type
     ng2cplxtypedata = complextypes_childelemnames(xsroot)
@@ -111,6 +113,59 @@ def get_allchildelems(xsroot, parentnode):
     return childelemnames
 
 
+def get_childelemdata(xsroot, testroot):
+    childdatastr = ''
+    # process the testroot if its an element with type
+    if testroot.tag == XSNS + 'element':
+        if 'type' in testroot.attrib:
+            typeref = testroot.attrib['type']
+            xpath = './/xs:complexType[@name="' + typeref + '"]'
+            cplxtyperoot = xsroot.find(xpath, NS)
+            if cplxtyperoot is not None:
+                addlchilddata = get_childelemdata(xsroot, cplxtyperoot)
+                childdatastr += addlchilddata
+    # process all child elements
+    for achild in testroot:
+        elemtag = achild.tag
+        if elemtag == XSNS + 'element':
+            if 'name' in achild.attrib:
+                childdatastr += achild.attrib['name'] + '|'
+            if 'ref' in achild.attrib:
+                childdatastr += achild.attrib['ref'] + '|'
+        if elemtag == XSNS + 'sequence':
+            addlchilddata = get_childelemdata(xsroot, achild)
+            childdatastr += addlchilddata
+        if elemtag == XSNS + 'choice':
+            addlchilddata = get_childelemdata(xsroot, achild)
+            childdatastr += addlchilddata
+        if elemtag == XSNS + 'complexType':
+            addlchilddata = get_childelemdata(xsroot, achild)
+            childdatastr += addlchilddata
+        if elemtag == XSNS + 'complexContent':
+            addlchilddata = get_childelemdata(xsroot, achild)
+            childdatastr += addlchilddata
+        if elemtag == XSNS + 'extension':
+            if 'base' in achild.attrib:
+                baseref = achild.attrib['base']
+                xpath = './/xs:complexType[@name="' + baseref + '"]'
+                cplxtyperoot = xsroot.find(xpath, NS)
+                if cplxtyperoot is not None:
+                    addlchilddata = get_childelemdata(xsroot, cplxtyperoot)
+                    childdatastr += addlchilddata
+            addlchilddata = get_childelemdata(xsroot, achild)
+            childdatastr += addlchilddata
+        if elemtag == XSNS + 'group':
+            if 'ref' in achild.attrib:
+                ref = achild.attrib['ref']
+                xpath = './/xs:group[@name="' + ref + '"]'
+                grouproot = xsroot.find(xpath, NS)
+                if grouproot is not None:
+                    addlchilddata = get_childelemdata(xsroot, grouproot)
+                    childdatastr += addlchilddata
+
+    return childdatastr
+
+
 def process_ng2_schema(xmlschema_filename):
 
     xstree = ET.parse('./xmlschema/' + xmlschema_filename)
@@ -121,8 +176,6 @@ def process_ng2_schema(xmlschema_filename):
     logfile_addline('*** AttributeGroups')
     ng2attrgroupsdata = {}
     for xsattrgroup in xsroot.findall('.//xs:attributeGroup[@name]', NS):
-        if xsattrgroup.attrib['name'] == "i18nAttributes":
-            print('TESTSTOP')
         ng2attrgroupsdata[xsattrgroup.attrib['name']] = get_attributedata(xsattrgroup)
 
     ng2attrgroupnames = list(ng2attrgroupsdata.keys())
@@ -205,9 +258,13 @@ def process_ng2_schema(xmlschema_filename):
         attrdata = get_attributedata(xselement)
         ng2elemattribs.update(attrdata)
 
+        # check for child elements
+        childelemdata = get_childelemdata(xsroot, xselement)
+
         # finally: add the data of this element to the dict
         ng2elemdata = {'name': ng2elembasename}
         ng2elemdata['attributes'] = ng2elemattribs
+        ng2elemdata['childelements'] = childelemdata
         ng2elemsdata[ng2elemname] = ng2elemdata
 
     ng2elemnames = list(ng2elemsdata.keys())

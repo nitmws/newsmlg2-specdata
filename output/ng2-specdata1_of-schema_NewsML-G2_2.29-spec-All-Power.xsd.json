@@ -9,7 +9,8 @@
       "conformance": "xs:string|optional",
       "guid": "xs:string|required",
       "version": "xs:positiveInteger|optional"
-    }
+    },
+    "childelements": "catalogRef|catalog|hopHistory|pubHistory|rightsInfo|itemMeta|contentMeta|assert|inlineRef|derivedFrom|derivedFromValue|concept|"
   },
   "contentMeta": {
     "name": "contentMeta",
@@ -27,7 +28,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "icon|urgency|contentCreated|contentModified|located|infoSource|creator|contributor|audience|exclAudience|altId|rating|userInteraction|language|keyword|subject|slugline|headline|description|contentMetaExtProperty|"
   },
   "knowledgeItem": {
     "name": "knowledgeItem",
@@ -39,7 +41,8 @@
       "conformance": "xs:string|optional",
       "guid": "xs:string|required",
       "version": "xs:positiveInteger|optional"
-    }
+    },
+    "childelements": "catalogRef|catalog|hopHistory|pubHistory|rightsInfo|itemMeta|contentMeta|partMeta|assert|inlineRef|derivedFrom|derivedFromValue|conceptSet|schemeMeta|"
   },
   "contentMeta_2": {
     "name": "contentMeta",
@@ -57,7 +60,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "icon|urgency|contentCreated|contentModified|located|infoSource|creator|contributor|audience|exclAudience|altId|rating|userInteraction|language|keyword|subject|slugline|headline|description|contentMetaExtProperty|"
   },
   "conceptSet": {
     "name": "conceptSet",
@@ -73,7 +77,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": "concept|"
   },
   "schemeMeta": {
     "name": "schemeMeta",
@@ -96,7 +101,8 @@
       "schemecreated": "DateOptTimeType|optional",
       "schememodified": "DateOptTimeType|optional",
       "schemeretired": "DateOptTimeType|optional"
-    }
+    },
+    "childelements": "sameAsScheme|name|definition|note|related|schemeMetaExtProperty|"
   },
   "schemeMetaExtProperty": {
     "name": "schemeMetaExtProperty",
@@ -127,7 +133,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "newsItem": {
     "name": "newsItem",
@@ -139,7 +146,8 @@
       "conformance": "xs:string|optional",
       "guid": "xs:string|required",
       "version": "xs:positiveInteger|optional"
-    }
+    },
+    "childelements": "catalogRef|catalog|hopHistory|pubHistory|rightsInfo|itemMeta|contentMeta|partMeta|assert|inlineRef|derivedFrom|derivedFromValue|contentSet|"
   },
   "contentMeta_3": {
     "name": "contentMeta",
@@ -157,7 +165,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "icon|urgency|contentCreated|contentModified|located|infoSource|creator|contributor|audience|exclAudience|altId|rating|userInteraction|language|genre|keyword|subject|slugline|headline|dateline|by|creditline|description|contentMetaExtProperty|"
   },
   "contentSet": {
     "name": "contentSet",
@@ -232,7 +241,8 @@
       "encoding": "QCodeType|NA",
       "encodinguri": "IRIType|NA",
       "original": "xs:IDREF|NA"
-    }
+    },
+    "childelements": "inlineXML|inlineData|remoteContent|"
   },
   "inlineXML": {
     "name": "inlineXML",
@@ -302,7 +312,8 @@
       "videodefinitionuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": ""
   },
   "inlineData": {
     "name": "inlineData",
@@ -374,7 +385,8 @@
       "xml:lang": "NA|optional",
       "encoding": "QCodeType|NA",
       "encodinguri": "IRIType|NA"
-    }
+    },
+    "childelements": ""
   },
   "remoteContent": {
     "name": "remoteContent",
@@ -459,7 +471,8 @@
       "roleuri": "IRIType|NA",
       "language": "xs:language|NA",
       "g2flag": "xs:string|optional"
-    }
+    },
+    "childelements": "channel|altId|altLoc|hash|signal|remoteContentExtProperty|"
   },
   "channel": {
     "name": "channel",
@@ -524,7 +537,8 @@
       "roleuri": "IRIType|NA",
       "language": "xs:language|NA",
       "g2flag": "xs:string|optional"
-    }
+    },
+    "childelements": ""
   },
   "remoteContentExtProperty": {
     "name": "remoteContentExtProperty",
@@ -555,7 +569,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "packageItem": {
     "name": "packageItem",
@@ -567,7 +582,8 @@
       "conformance": "xs:string|optional",
       "guid": "xs:string|required",
       "version": "xs:positiveInteger|optional"
-    }
+    },
+    "childelements": "catalogRef|catalog|hopHistory|pubHistory|rightsInfo|itemMeta|contentMeta|partMeta|assert|inlineRef|derivedFrom|derivedFromValue|groupSet|"
   },
   "contentMeta_4": {
     "name": "contentMeta",
@@ -585,7 +601,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "icon|urgency|contentCreated|contentModified|located|infoSource|creator|contributor|audience|exclAudience|altId|rating|userInteraction|language|genre|keyword|subject|slugline|headline|dateline|by|creditline|description|contentMetaExtProperty|"
   },
   "groupSet": {
     "name": "groupSet",
@@ -614,7 +631,8 @@
       "mode": "QCodeType|optional",
       "modeuri": "IRIType|optional",
       "root": "xs:IDREF|required"
-    }
+    },
+    "childelements": "group|"
   },
   "group": {
     "name": "group",
@@ -642,7 +660,8 @@
       "roleuri": "IRIType|NA",
       "mode": "QCodeType|optional",
       "modeuri": "IRIType|optional"
-    }
+    },
+    "childelements": "groupRef|itemRef|conceptRef|title|signal|edNote|groupExtProperty|"
   },
   "groupRef": {
     "name": "groupRef",
@@ -659,7 +678,8 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "idref": "xs:IDREF|required"
-    }
+    },
+    "childelements": ""
   },
   "itemRef": {
     "name": "itemRef",
@@ -697,7 +717,8 @@
       "rel": "QCodeType|optional",
       "reluri": "IRIType|optional",
       "rank": "xs:nonNegativeInteger|optional"
-    }
+    },
+    "childelements": ""
   },
   "conceptRef": {
     "name": "conceptRef",
@@ -720,7 +741,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|"
   },
   "groupExtProperty": {
     "name": "groupExtProperty",
@@ -751,7 +773,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "planningItem": {
     "name": "planningItem",
@@ -763,7 +786,8 @@
       "conformance": "xs:string|optional",
       "guid": "xs:string|required",
       "version": "xs:positiveInteger|optional"
-    }
+    },
+    "childelements": "catalogRef|catalog|hopHistory|pubHistory|rightsInfo|itemMeta|contentMeta|assert|inlineRef|derivedFrom|derivedFromValue|newsCoverageSet|"
   },
   "contentMeta_5": {
     "name": "contentMeta",
@@ -781,7 +805,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "icon|urgency|contentCreated|contentModified|located|infoSource|creator|contributor|audience|exclAudience|altId|rating|userInteraction|language|keyword|subject|slugline|headline|description|contentMetaExtProperty|"
   },
   "newsCoverageSet": {
     "name": "newsCoverageSet",
@@ -797,7 +822,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": "newsCoverage|"
   },
   "catalogItem": {
     "name": "catalogItem",
@@ -809,7 +835,8 @@
       "conformance": "xs:string|optional",
       "guid": "xs:string|required",
       "version": "xs:positiveInteger|optional"
-    }
+    },
+    "childelements": "catalogRef|catalog|hopHistory|pubHistory|rightsInfo|itemMeta|contentMeta|catalogContainer|"
   },
   "contentMeta_6": {
     "name": "contentMeta",
@@ -827,11 +854,13 @@
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "contentCreated|contentModified|creator|contributor|altId|"
   },
   "catalogContainer": {
     "name": "catalogContainer",
-    "attributes": {}
+    "attributes": {},
+    "childelements": "catalog|"
   },
   "newsMessage": {
     "name": "newsMessage",
@@ -856,7 +885,8 @@
       "roleuri": "IRIType|optional",
       "href": "IRIType|required",
       "g2flag": "xs:string|optional"
-    }
+    },
+    "childelements": "header|itemSet|"
   },
   "header": {
     "name": "header",
@@ -881,7 +911,8 @@
       "roleuri": "IRIType|optional",
       "href": "IRIType|required",
       "g2flag": "xs:string|optional"
-    }
+    },
+    "childelements": "sent|catalogRef|catalog|sender|transmitId|priority|origin|timestamp|destination|channel|signal|headerExtProperty|"
   },
   "sent": {
     "name": "sent",
@@ -897,7 +928,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "catalogRef": {
     "name": "catalogRef",
@@ -914,7 +946,8 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "href": "IRIType|required"
-    }
+    },
+    "childelements": "title|"
   },
   "sender": {
     "name": "sender",
@@ -937,7 +970,8 @@
       "typeuri": "IRIType|optional",
       "role": "QCodeType|optional",
       "roleuri": "IRIType|optional"
-    }
+    },
+    "childelements": ""
   },
   "transmitId": {
     "name": "transmitId",
@@ -953,7 +987,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "priority": {
     "name": "priority",
@@ -969,7 +1004,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "origin": {
     "name": "origin",
@@ -992,7 +1028,8 @@
       "typeuri": "IRIType|optional",
       "role": "QCodeType|optional",
       "roleuri": "IRIType|optional"
-    }
+    },
+    "childelements": ""
   },
   "timestamp": {
     "name": "timestamp",
@@ -1009,7 +1046,8 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "role": "xs:string|optional"
-    }
+    },
+    "childelements": ""
   },
   "destination": {
     "name": "destination",
@@ -1032,7 +1070,8 @@
       "typeuri": "IRIType|optional",
       "role": "QCodeType|optional",
       "roleuri": "IRIType|optional"
-    }
+    },
+    "childelements": ""
   },
   "channel_2": {
     "name": "channel",
@@ -1056,7 +1095,8 @@
       "role": "QCodeType|optional",
       "roleuri": "IRIType|optional",
       "g2flag": "xs:string|optional"
-    }
+    },
+    "childelements": ""
   },
   "headerExtProperty": {
     "name": "headerExtProperty",
@@ -1087,7 +1127,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "itemSet": {
     "name": "itemSet",
@@ -1103,7 +1144,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "catalog": {
     "name": "catalog",
@@ -1130,7 +1172,8 @@
       "url": "IRIType|NA",
       "guid": "xs:anyURI|NA",
       "version": "xs:nonNegativeInteger|NA"
-    }
+    },
+    "childelements": "title|scheme|"
   },
   "scheme": {
     "name": "scheme",
@@ -1153,7 +1196,8 @@
       "schemecreated": "DateOptTimeType|optional",
       "schememodified": "DateOptTimeType|optional",
       "schemeretired": "DateOptTimeType|optional"
-    }
+    },
+    "childelements": "sameAsScheme|name|definition|note|sameAs|"
   },
   "sameAs": {
     "name": "sameAs",
@@ -1170,7 +1214,8 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "g2flag": "xs:string|optional"
-    }
+    },
+    "childelements": ""
   },
   "sameAsScheme": {
     "name": "sameAsScheme",
@@ -1186,7 +1231,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "catalogRef_2": {
     "name": "catalogRef",
@@ -1203,7 +1249,8 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "href": "IRIType|required"
-    }
+    },
+    "childelements": "title|"
   },
   "rightsInfo": {
     "name": "rightsInfo",
@@ -1228,7 +1275,8 @@
       "scopeuri": "IRIListType|optional",
       "aspect": "QCodeListType|optional",
       "aspecturi": "IRIListType|optional"
-    }
+    },
+    "childelements": "accountable|copyrightHolder|copyrightNotice|usageTerms|link|rightsInfoExtProperty|rightsExpressionXML|rightsExpressionData|"
   },
   "accountable": {
     "name": "accountable",
@@ -1251,7 +1299,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|personDetails|"
   },
   "copyrightHolder": {
     "name": "copyrightHolder",
@@ -1274,7 +1323,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|personDetails|organisationDetails|"
   },
   "copyrightNotice": {
     "name": "copyrightNotice",
@@ -1296,7 +1346,8 @@
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA"
-    }
+    },
+    "childelements": "a|span|ruby|br|inline|"
   },
   "usageTerms": {
     "name": "usageTerms",
@@ -1318,7 +1369,8 @@
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA"
-    }
+    },
+    "childelements": "a|span|ruby|br|inline|"
   },
   "rightsInfoExtProperty": {
     "name": "rightsInfoExtProperty",
@@ -1349,7 +1401,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "rightsExpressionXML": {
     "name": "rightsExpressionXML",
@@ -1366,7 +1419,8 @@
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional",
       "langid": "xs:anyURI|required"
-    }
+    },
+    "childelements": ""
   },
   "rightsExpressionData": {
     "name": "rightsExpressionData",
@@ -1384,7 +1438,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "langid": "xs:anyURI|required",
       "enctype": "xs:string|required"
-    }
+    },
+    "childelements": ""
   },
   "itemMeta": {
     "name": "itemMeta",
@@ -1402,7 +1457,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "itemClass|provider|versionCreated|firstCreated|embargoed|pubStatus|role|fileName|generator|profile|service|title|edNote|memberOf|instanceOf|signal|altRep|deliverableOf|hash|expires|origRep|incomingFeedId|metadataCreator|link|itemMetaExtProperty|"
   },
   "itemClass": {
     "name": "itemClass",
@@ -1422,7 +1478,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "qcode": "QCodeType|NA",
       "uri": "IRIType|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|related|"
   },
   "provider": {
     "name": "provider",
@@ -1445,7 +1502,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|personDetails|organisationDetails|"
   },
   "versionCreated": {
     "name": "versionCreated",
@@ -1461,7 +1519,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "firstCreated": {
     "name": "firstCreated",
@@ -1477,7 +1536,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "embargoed": {
     "name": "embargoed",
@@ -1493,7 +1553,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "pubStatus": {
     "name": "pubStatus",
@@ -1513,7 +1574,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "qcode": "QCodeType|NA",
       "uri": "IRIType|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|"
   },
   "role": {
     "name": "role",
@@ -1533,7 +1595,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "qcode": "QCodeType|NA",
       "uri": "IRIType|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|"
   },
   "fileName": {
     "name": "fileName",
@@ -1549,7 +1612,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "generator": {
     "name": "generator",
@@ -1570,7 +1634,8 @@
       "xml:lang": "NA|optional",
       "role": "QCodeType|NA",
       "roleuri": "IRIType|NA"
-    }
+    },
+    "childelements": ""
   },
   "profile": {
     "name": "profile",
@@ -1589,7 +1654,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": ""
   },
   "service": {
     "name": "service",
@@ -1609,7 +1675,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "qcode": "QCodeType|NA",
       "uri": "IRIType|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|"
   },
   "edNote": {
     "name": "edNote",
@@ -1630,7 +1697,8 @@
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA"
-    }
+    },
+    "childelements": "a|span|ruby|br|inline|"
   },
   "memberOf": {
     "name": "memberOf",
@@ -1653,7 +1721,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "instanceOf": {
     "name": "instanceOf",
@@ -1676,7 +1745,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "signal": {
     "name": "signal",
@@ -1701,7 +1771,8 @@
       "xml:lang": "NA|optional",
       "severity": "QCodeType|optional",
       "severityuri": "IRIType|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "altRep": {
     "name": "altRep",
@@ -1729,7 +1800,8 @@
       "representation": "QCodeType|NA",
       "representationuri": "IRIType|NA",
       "size": "xs:nonNegativeInteger|NA"
-    }
+    },
+    "childelements": ""
   },
   "deliverableOf": {
     "name": "deliverableOf",
@@ -1767,7 +1839,8 @@
       "rel": "QCodeType|optional",
       "reluri": "IRIType|optional",
       "rank": "xs:nonNegativeInteger|optional"
-    }
+    },
+    "childelements": ""
   },
   "hash": {
     "name": "hash",
@@ -1787,7 +1860,8 @@
       "hashtypeuri": "IRIType|NA",
       "scope": "QCodeType|NA",
       "scopeuri": "IRIType|NA"
-    }
+    },
+    "childelements": ""
   },
   "expires": {
     "name": "expires",
@@ -1803,7 +1877,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "origRep": {
     "name": "origRep",
@@ -1823,7 +1898,8 @@
       "accesstypeuri": "IRIType|NA",
       "reposrole": "QCodeType|NA",
       "reposroleuri": "IRIType|NA"
-    }
+    },
+    "childelements": ""
   },
   "incomingFeedId": {
     "name": "incomingFeedId",
@@ -1843,7 +1919,8 @@
       "uri": "IRIType|optional",
       "role": "QCodeType|NA",
       "roleuri": "IRIType|NA"
-    }
+    },
+    "childelements": ""
   },
   "metadataCreator": {
     "name": "metadataCreator",
@@ -1870,7 +1947,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|personDetails|organisationDetails|"
   },
   "link": {
     "name": "link",
@@ -1908,7 +1986,8 @@
       "rel": "QCodeType|optional",
       "reluri": "IRIType|optional",
       "rank": "xs:nonNegativeInteger|optional"
-    }
+    },
+    "childelements": ""
   },
   "itemMetaExtProperty": {
     "name": "itemMetaExtProperty",
@@ -1939,7 +2018,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "urgency": {
     "name": "urgency",
@@ -1955,7 +2035,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "contentCreated": {
     "name": "contentCreated",
@@ -1971,7 +2052,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "contentModified": {
     "name": "contentModified",
@@ -1987,7 +2069,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "icon": {
     "name": "icon",
@@ -2034,7 +2117,8 @@
       "colourdepth": "xs:nonNegativeInteger|optional",
       "rendition": "QCodeType|NA",
       "renditionuri": "IRIType|NA"
-    }
+    },
+    "childelements": ""
   },
   "located": {
     "name": "located",
@@ -2057,7 +2141,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|geoAreaDetails|POIDetails|"
   },
   "infoSource": {
     "name": "infoSource",
@@ -2082,7 +2167,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|personDetails|organisationDetails|"
   },
   "creator": {
     "name": "creator",
@@ -2109,7 +2195,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|personDetails|organisationDetails|"
   },
   "contributor": {
     "name": "contributor",
@@ -2136,7 +2223,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|personDetails|organisationDetails|"
   },
   "audience": {
     "name": "audience",
@@ -2163,7 +2251,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "exclAudience": {
     "name": "exclAudience",
@@ -2190,7 +2279,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "altId": {
     "name": "altId",
@@ -2217,7 +2307,8 @@
       "role": "QCodeType|NA",
       "roleuri": "IRIType|NA",
       "version": "xs:string|NA"
-    }
+    },
+    "childelements": ""
   },
   "rating": {
     "name": "rating",
@@ -2245,7 +2336,8 @@
       "ratertypeuri": "IRIType|optional",
       "ratingtype": "QCodeType|NA",
       "ratingtypeuri": "IRIType|NA"
-    }
+    },
+    "childelements": ""
   },
   "userInteraction": {
     "name": "userInteraction",
@@ -2264,7 +2356,8 @@
       "interactions": "xs:nonNegativeInteger|required",
       "interactiontype": "QCodeType|NA",
       "interactiontypeuri": "IRIType|NA"
-    }
+    },
+    "childelements": ""
   },
   "language": {
     "name": "language",
@@ -2284,7 +2377,8 @@
       "tag": "xs:language|required",
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional"
-    }
+    },
+    "childelements": "name|"
   },
   "name": {
     "name": "name",
@@ -2302,7 +2396,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": ""
   },
   "genre": {
     "name": "genre",
@@ -2329,7 +2424,8 @@
       "dir": "NA|optional",
       "xml:lang": "NA|optional",
       "rank": "xs:nonNegativeInteger|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|bag|mainConcept|facetConcept|"
   },
   "keyword": {
     "name": "keyword",
@@ -2352,7 +2448,8 @@
       "roleuri": "IRIListType|optional",
       "confidence": "Int100Type|optional",
       "relevance": "Int100Type|optional"
-    }
+    },
+    "childelements": ""
   },
   "subject": {
     "name": "subject",
@@ -2379,7 +2476,8 @@
       "dir": "NA|optional",
       "xml:lang": "NA|optional",
       "rank": "xs:nonNegativeInteger|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|bag|mainConcept|facetConcept|"
   },
   "slugline": {
     "name": "slugline",
@@ -2403,7 +2501,8 @@
       "roleuri": "IRIType|optional",
       "confidence": "Int100Type|optional",
       "relevance": "Int100Type|optional"
-    }
+    },
+    "childelements": ""
   },
   "headline": {
     "name": "headline",
@@ -2427,7 +2526,8 @@
       "rank": "xs:nonNegativeInteger|optional",
       "confidence": "Int100Type|optional",
       "relevance": "Int100Type|optional"
-    }
+    },
+    "childelements": "a|span|ruby|inline|"
   },
   "dateline": {
     "name": "dateline",
@@ -2449,7 +2549,8 @@
       "roleuri": "IRIListType|optional",
       "media": "xs:NMTOKENS|optional",
       "rank": "xs:nonNegativeInteger|optional"
-    }
+    },
+    "childelements": "a|span|ruby|inline|"
   },
   "by": {
     "name": "by",
@@ -2471,7 +2572,8 @@
       "roleuri": "IRIListType|optional",
       "media": "xs:NMTOKENS|optional",
       "rank": "xs:nonNegativeInteger|optional"
-    }
+    },
+    "childelements": "a|span|ruby|inline|"
   },
   "creditline": {
     "name": "creditline",
@@ -2490,7 +2592,8 @@
       "dir": "NA|optional",
       "xml:lang": "NA|optional",
       "rank": "xs:nonNegativeInteger|optional"
-    }
+    },
+    "childelements": ""
   },
   "description": {
     "name": "description",
@@ -2514,7 +2617,8 @@
       "rank": "xs:nonNegativeInteger|optional",
       "confidence": "Int100Type|optional",
       "relevance": "Int100Type|optional"
-    }
+    },
+    "childelements": "a|span|ruby|br|inline|"
   },
   "contentMetaExtProperty": {
     "name": "contentMetaExtProperty",
@@ -2545,7 +2649,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "partMeta": {
     "name": "partMeta",
@@ -2576,7 +2681,8 @@
       "partid": "xs:ID|optional",
       "seq": "xs:nonNegativeInteger|optional",
       "contentrefs": "xs:IDREFS|optional"
-    }
+    },
+    "childelements": "icon|timeDelim|regionDelim|role|urgency|contentCreated|contentModified|located|infoSource|creator|contributor|audience|exclAudience|altId|rating|userInteraction|language|genre|keyword|subject|slugline|headline|dateline|by|creditline|description|partMetaExtProperty|signal|edNote|link|"
   },
   "timeDelim": {
     "name": "timeDelim",
@@ -2598,7 +2704,8 @@
       "timeunituri": "IRIType|NA",
       "renditionref": "QCodeType|NA",
       "renditionrefuri": "IRIType|NA"
-    }
+    },
+    "childelements": ""
   },
   "regionDelim": {
     "name": "regionDelim",
@@ -2618,7 +2725,8 @@
       "y": "xs:integer|NA",
       "width": "xs:integer|NA",
       "height": "xs:nonNegativeInteger|NA"
-    }
+    },
+    "childelements": ""
   },
   "role_2": {
     "name": "role",
@@ -2638,7 +2746,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "qcode": "QCodeType|NA",
       "uri": "IRIType|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|"
   },
   "partMetaExtProperty": {
     "name": "partMetaExtProperty",
@@ -2669,7 +2778,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "assert": {
     "name": "assert",
@@ -2690,7 +2800,8 @@
       "qcode": "QCodeType|optional",
       "uri": "IRIType|optional",
       "literal": "g2normalizedString|optional"
-    }
+    },
+    "childelements": ""
   },
   "inlineRef": {
     "name": "inlineRef",
@@ -2717,7 +2828,8 @@
       "relevance": "Int100Type|optional",
       "derivedfrom": "QCodeListType|optional",
       "idrefs": "xs:IDREFS|required"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "derivedFrom": {
     "name": "derivedFrom",
@@ -2741,7 +2853,8 @@
       "dir": "NA|optional",
       "xml:lang": "NA|optional",
       "idrefs": "xs:IDREFS|NA"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "derivedFromValue": {
     "name": "derivedFromValue",
@@ -2759,7 +2872,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "sourceidref": "xs:IDREF|required",
       "idrefs": "xs:IDREFS|required"
-    }
+    },
+    "childelements": ""
   },
   "title": {
     "name": "title",
@@ -2780,7 +2894,8 @@
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional",
       "media": "xs:NMTOKENS|optional"
-    }
+    },
+    "childelements": "a|span|ruby|inline|"
   },
   "created": {
     "name": "created",
@@ -2796,7 +2911,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "bag": {
     "name": "bag",
@@ -2822,7 +2938,8 @@
       "type": "QCodeType|NA",
       "typeuri": "IRIType|NA",
       "significance": "Int100Type|NA"
-    }
+    },
+    "childelements": "bit|"
   },
   "bit": {
     "name": "bit",
@@ -2846,7 +2963,8 @@
       "type": "QCodeType|NA",
       "typeuri": "IRIType|NA",
       "significance": "Int100Type|NA"
-    }
+    },
+    "childelements": ""
   },
   "mainConcept": {
     "name": "mainConcept",
@@ -2878,7 +2996,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|facet|related|sameAs|"
   },
   "facetConcept": {
     "name": "facetConcept",
@@ -2910,7 +3029,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|facet|related|sameAs|"
   },
   "altLoc": {
     "name": "altLoc",
@@ -2930,7 +3050,8 @@
       "typeuri": "IRIType|optional",
       "role": "QCodeType|optional",
       "roleruri": "IRIType|optional"
-    }
+    },
+    "childelements": ""
   },
   "hierarchyInfo": {
     "name": "hierarchyInfo",
@@ -2946,7 +3067,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "concept": {
     "name": "concept",
@@ -2964,7 +3086,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "conceptId|type|name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|personDetails|organisationDetails|geoAreaDetails|POIDetails|objectDetails|eventDetails|conceptExtProperty|"
   },
   "conceptId": {
     "name": "conceptId",
@@ -2984,7 +3107,8 @@
       "uri": "IRIType|optional",
       "created": "DateOptTimeType|optional",
       "retired": "DateOptTimeType|optional"
-    }
+    },
+    "childelements": ""
   },
   "type": {
     "name": "type",
@@ -3004,7 +3128,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "qcode": "QCodeType|NA",
       "uri": "IRIType|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|"
   },
   "name_2": {
     "name": "name",
@@ -3028,7 +3153,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": ""
   },
   "definition": {
     "name": "definition",
@@ -3051,7 +3177,8 @@
       "roleuri": "IRIType|NA",
       "validfrom": "DateOptTimeType|optional",
       "validto": "DateOptTimeType|optional"
-    }
+    },
+    "childelements": "a|span|ruby|br|inline|"
   },
   "note": {
     "name": "note",
@@ -3074,7 +3201,8 @@
       "roleuri": "IRIType|NA",
       "validfrom": "DateOptTimeType|optional",
       "validto": "DateOptTimeType|optional"
-    }
+    },
+    "childelements": "a|span|ruby|br|inline|"
   },
   "facet": {
     "name": "facet",
@@ -3102,7 +3230,8 @@
       "rel": "QCodeType|optional",
       "reluri": "IRIType|optional",
       "g2flag": "xs:string|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|"
   },
   "remoteInfo": {
     "name": "remoteInfo",
@@ -3140,7 +3269,8 @@
       "rel": "QCodeType|optional",
       "reluri": "IRIType|optional",
       "rank": "xs:nonNegativeInteger|optional"
-    }
+    },
+    "childelements": ""
   },
   "sameAs_2": {
     "name": "sameAs",
@@ -3165,7 +3295,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|"
   },
   "broader": {
     "name": "broader",
@@ -3197,7 +3328,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|facet|related|sameAs|"
   },
   "narrower": {
     "name": "narrower",
@@ -3229,7 +3361,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|facet|related|sameAs|"
   },
   "related": {
     "name": "related",
@@ -3261,7 +3394,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|facet|related|sameAs|bag|"
   },
   "conceptExtProperty": {
     "name": "conceptExtProperty",
@@ -3292,7 +3426,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "related_2": {
     "name": "related",
@@ -3324,7 +3459,8 @@
       "rel": "QCodeType|optional",
       "reluri": "IRIType|optional",
       "rank": "xs:nonNegativeInteger|NA"
-    }
+    },
+    "childelements": "name|hierarchyInfo|"
   },
   "personDetails": {
     "name": "personDetails",
@@ -3340,7 +3476,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": "born|died|affiliation|contactInfo|"
   },
   "born": {
     "name": "born",
@@ -3356,7 +3493,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "died": {
     "name": "died",
@@ -3372,7 +3510,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "affiliation": {
     "name": "affiliation",
@@ -3399,7 +3538,8 @@
       "roleuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|organisationDetails|"
   },
   "contactInfo": {
     "name": "contactInfo",
@@ -3417,7 +3557,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional"
-    }
+    },
+    "childelements": "email|im|phone|fax|web|address|note|"
   },
   "organisationDetails": {
     "name": "organisationDetails",
@@ -3444,7 +3585,8 @@
       "type": "QCodeListType|NA",
       "typeuri": "IRIListType|NA",
       "rank": "xs:nonNegativeInteger|NA"
-    }
+    },
+    "childelements": "founded|dissolved|location|affiliation|contactInfo|hasInstrument|"
   },
   "founded": {
     "name": "founded",
@@ -3460,7 +3602,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "dissolved": {
     "name": "dissolved",
@@ -3476,7 +3619,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "location": {
     "name": "location",
@@ -3499,7 +3643,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|geoAreaDetails|POIDetails|"
   },
   "affiliation_2": {
     "name": "affiliation",
@@ -3526,7 +3671,8 @@
       "roleuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|organisationDetails|"
   },
   "contactInfo_2": {
     "name": "contactInfo",
@@ -3544,7 +3690,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional"
-    }
+    },
+    "childelements": "email|im|phone|fax|web|address|note|"
   },
   "hasInstrument": {
     "name": "hasInstrument",
@@ -3571,7 +3718,8 @@
       "type": "QCodeListType|NA",
       "typeuri": "IRIListType|NA",
       "rank": "xs:nonNegativeInteger|NA"
-    }
+    },
+    "childelements": ""
   },
   "geoAreaDetails": {
     "name": "geoAreaDetails",
@@ -3590,7 +3738,8 @@
       "radius": "xs:double|required",
       "radunit": "QCodeType|NA",
       "radunituri": "IRIType|NA"
-    }
+    },
+    "childelements": "position|founded|dissolved|line|circle|polygon|"
   },
   "founded_2": {
     "name": "founded",
@@ -3606,7 +3755,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "dissolved_2": {
     "name": "dissolved",
@@ -3622,7 +3772,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "line": {
     "name": "line",
@@ -3638,7 +3789,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": "position|"
   },
   "circle": {
     "name": "circle",
@@ -3657,7 +3809,8 @@
       "radius": "xs:double|required",
       "radunit": "QCodeType|NA",
       "radunituri": "IRIType|NA"
-    }
+    },
+    "childelements": "position|"
   },
   "polygon": {
     "name": "polygon",
@@ -3673,7 +3826,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": "position|"
   },
   "position": {
     "name": "position",
@@ -3693,7 +3847,8 @@
       "longitude": "xs:decimal|required",
       "altitude": "xs:integer|optional",
       "gpsdatum": "xs:string|optional"
-    }
+    },
+    "childelements": ""
   },
   "POIDetails": {
     "name": "POIDetails",
@@ -3709,7 +3864,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": "position|address|openHours|capacity|contactInfo|access|details|created|ceasedToExist|"
   },
   "position_2": {
     "name": "position",
@@ -3729,7 +3885,8 @@
       "longitude": "xs:decimal|required",
       "altitude": "xs:integer|optional",
       "gpsdatum": "xs:string|optional"
-    }
+    },
+    "childelements": ""
   },
   "address": {
     "name": "address",
@@ -3749,7 +3906,8 @@
       "roleuri": "IRIListType|NA",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "line|locality|area|country|postalCode|worldRegion|"
   },
   "openHours": {
     "name": "openHours",
@@ -3770,7 +3928,8 @@
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional",
       "media": "xs:NMTOKENS|optional"
-    }
+    },
+    "childelements": "a|span|ruby|inline|"
   },
   "capacity": {
     "name": "capacity",
@@ -3791,7 +3950,8 @@
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional",
       "media": "xs:NMTOKENS|optional"
-    }
+    },
+    "childelements": "a|span|ruby|inline|"
   },
   "contactInfo_3": {
     "name": "contactInfo",
@@ -3809,7 +3969,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional"
-    }
+    },
+    "childelements": "email|im|phone|fax|web|address|note|"
   },
   "access": {
     "name": "access",
@@ -3830,7 +3991,8 @@
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA"
-    }
+    },
+    "childelements": "a|span|ruby|br|inline|"
   },
   "details": {
     "name": "details",
@@ -3851,7 +4013,8 @@
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA"
-    }
+    },
+    "childelements": "a|span|ruby|br|inline|"
   },
   "created_2": {
     "name": "created",
@@ -3867,7 +4030,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "ceasedToExist": {
     "name": "ceasedToExist",
@@ -3883,7 +4047,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "objectDetails": {
     "name": "objectDetails",
@@ -3899,7 +4064,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": "created|copyrightNotice|creator|ceasedToExist|"
   },
   "created_3": {
     "name": "created",
@@ -3915,7 +4081,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "ceasedToExist_2": {
     "name": "ceasedToExist",
@@ -3931,7 +4098,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "eventDetails": {
     "name": "eventDetails",
@@ -3960,7 +4128,8 @@
       "confirmationstatusuri": "IRIType|optional",
       "role": "QCodeType|NA",
       "roleuri": "IRIType|NA"
-    }
+    },
+    "childelements": "dates|occurStatus|newsCoverageStatus|registration|keyword|accessStatus|participationRequirement|subject|location|participant|organiser|contactInfo|language|newsCoverage|"
   },
   "dates": {
     "name": "dates",
@@ -3980,7 +4149,8 @@
       "approxend": "TruncatedDateTimeType|optional",
       "confirmationstatus": "QCodeType|optional",
       "confirmationstatusuri": "IRIType|optional"
-    }
+    },
+    "childelements": "start|end|duration|rDate|rRule|exDate|exRule|confirmation|"
   },
   "start": {
     "name": "start",
@@ -4000,7 +4170,8 @@
       "approxend": "TruncatedDateTimeType|optional",
       "confirmationstatus": "QCodeType|optional",
       "confirmationstatusuri": "IRIType|optional"
-    }
+    },
+    "childelements": ""
   },
   "end": {
     "name": "end",
@@ -4020,7 +4191,8 @@
       "approxend": "TruncatedDateTimeType|optional",
       "confirmationstatus": "QCodeType|optional",
       "confirmationstatusuri": "IRIType|optional"
-    }
+    },
+    "childelements": ""
   },
   "duration": {
     "name": "duration",
@@ -4038,7 +4210,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "confirmationstatus": "QCodeType|optional",
       "confirmationstatusuri": "IRIType|optional"
-    }
+    },
+    "childelements": ""
   },
   "confirmation": {
     "name": "confirmation",
@@ -4056,7 +4229,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "qcode": "QCodeType|NA",
       "uri": "IRIType|optional"
-    }
+    },
+    "childelements": ""
   },
   "occurStatus": {
     "name": "occurStatus",
@@ -4076,7 +4250,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "qcode": "QCodeType|NA",
       "uri": "IRIType|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|"
   },
   "newsCoverageStatus": {
     "name": "newsCoverageStatus",
@@ -4096,7 +4271,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "qcode": "QCodeType|NA",
       "uri": "IRIType|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|"
   },
   "registration": {
     "name": "registration",
@@ -4117,7 +4293,8 @@
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA"
-    }
+    },
+    "childelements": "a|span|ruby|br|inline|"
   },
   "accessStatus": {
     "name": "accessStatus",
@@ -4137,7 +4314,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "qcode": "QCodeType|NA",
       "uri": "IRIType|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|"
   },
   "participationRequirement": {
     "name": "participationRequirement",
@@ -4162,7 +4340,8 @@
       "xml:lang": "NA|optional",
       "role": "QCodeType|NA",
       "roleuri": "IRIType|NA"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "subject_2": {
     "name": "subject",
@@ -4188,7 +4367,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|bag|mainConcept|facetConcept|"
   },
   "location_2": {
     "name": "location",
@@ -4213,7 +4393,8 @@
       "xml:lang": "NA|optional",
       "role": "QCodeType|NA",
       "roleuri": "IRIType|NA"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|geoAreaDetails|POIDetails|"
   },
   "participant": {
     "name": "participant",
@@ -4238,7 +4419,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|personDetails|organisationDetails|"
   },
   "organiser": {
     "name": "organiser",
@@ -4263,7 +4445,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|personDetails|organisationDetails|"
   },
   "contactInfo_4": {
     "name": "contactInfo",
@@ -4281,7 +4464,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional"
-    }
+    },
+    "childelements": "email|im|phone|fax|web|address|note|"
   },
   "newsCoverage": {
     "name": "newsCoverage",
@@ -4299,7 +4483,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "role": "QCodeType|NA",
       "roleuri": "IRIType|NA"
-    }
+    },
+    "childelements": "g2contentType|itemClass|assignedTo|scheduled|service|edNote|language|genre|keyword|subject|slugline|headline|dateline|by|creditline|description|"
   },
   "g2contentType": {
     "name": "g2contentType",
@@ -4315,7 +4500,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "assignedTo": {
     "name": "assignedTo",
@@ -4340,7 +4526,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|personDetails|organisationDetails|"
   },
   "scheduled": {
     "name": "scheduled",
@@ -4358,7 +4545,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "approxstart": "TruncatedDateTimeType|optional",
       "approxend": "TruncatedDateTimeType|optional"
-    }
+    },
+    "childelements": ""
   },
   "service_2": {
     "name": "service",
@@ -4378,7 +4566,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "qcode": "QCodeType|NA",
       "uri": "IRIType|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|"
   },
   "edNote_2": {
     "name": "edNote",
@@ -4399,7 +4588,8 @@
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA"
-    }
+    },
+    "childelements": "a|span|ruby|br|inline|"
   },
   "event": {
     "name": "event",
@@ -4415,7 +4605,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|sameAs|broader|narrower|related|eventDetails|"
   },
   "events": {
     "name": "events",
@@ -4431,7 +4622,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": "event|"
   },
   "email": {
     "name": "email",
@@ -4449,7 +4641,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "im": {
     "name": "im",
@@ -4469,7 +4662,8 @@
       "roleuri": "IRIListType|optional",
       "tech": "QCodeType|optional",
       "techuri": "IRIType|optional"
-    }
+    },
+    "childelements": ""
   },
   "phone": {
     "name": "phone",
@@ -4489,7 +4683,8 @@
       "roleuri": "IRIListType|optional",
       "tech": "QCodeType|optional",
       "techuri": "IRIType|optional"
-    }
+    },
+    "childelements": ""
   },
   "fax": {
     "name": "fax",
@@ -4507,7 +4702,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "web": {
     "name": "web",
@@ -4525,7 +4721,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "role": "QCodeListType|NA",
       "roleuri": "IRIListType|NA"
-    }
+    },
+    "childelements": ""
   },
   "address_2": {
     "name": "address",
@@ -4545,7 +4742,8 @@
       "roleuri": "IRIListType|NA",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "line|locality|area|country|postalCode|worldRegion|"
   },
   "line_2": {
     "name": "line",
@@ -4565,7 +4763,8 @@
       "xml:lang": "NA|optional",
       "role": "QCodeType|NA",
       "roleuri": "IRIType|NA"
-    }
+    },
+    "childelements": ""
   },
   "locality": {
     "name": "locality",
@@ -4590,7 +4789,8 @@
       "xml:lang": "NA|optional",
       "role": "QCodeType|optional",
       "roleuri": "IRIType|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "area": {
     "name": "area",
@@ -4615,7 +4815,8 @@
       "xml:lang": "NA|optional",
       "role": "QCodeType|optional",
       "roleuri": "IRIType|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "country": {
     "name": "country",
@@ -4638,7 +4839,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "postalCode": {
     "name": "postalCode",
@@ -4656,7 +4858,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": ""
   },
   "worldRegion": {
     "name": "worldRegion",
@@ -4679,7 +4882,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "newsCoverage_2": {
     "name": "newsCoverage",
@@ -4757,7 +4961,8 @@
       "rangeto": "xs:positiveInteger|required",
       "coversfrom": "DateOptTimeType|NA",
       "coversto": "DateOptTimeType|NA"
-    }
+    },
+    "childelements": "planning|delivery|newsCoverageExtProperty|"
   },
   "planning": {
     "name": "planning",
@@ -4835,7 +5040,8 @@
       "rangeto": "xs:positiveInteger|required",
       "coversfrom": "DateOptTimeType|NA",
       "coversto": "DateOptTimeType|NA"
-    }
+    },
+    "childelements": "g2contentType|itemClass|itemCount|assignedTo|scheduled|service|language|genre|keyword|subject|slugline|headline|dateline|by|creditline|description|edNote|newsContentCharacteristics|urgency|audience|exclAudience|planningExtProperty|"
   },
   "g2contentType_2": {
     "name": "g2contentType",
@@ -4851,7 +5057,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "itemCount": {
     "name": "itemCount",
@@ -4869,7 +5076,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "rangefrom": "xs:nonNegativeInteger|required",
       "rangeto": "xs:positiveInteger|required"
-    }
+    },
+    "childelements": ""
   },
   "assignedTo_2": {
     "name": "assignedTo",
@@ -4896,7 +5104,8 @@
       "xml:lang": "NA|optional",
       "coversfrom": "DateOptTimeType|NA",
       "coversto": "DateOptTimeType|NA"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|personDetails|organisationDetails|"
   },
   "scheduled_2": {
     "name": "scheduled",
@@ -4914,7 +5123,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "approxstart": "TruncatedDateTimeType|optional",
       "approxend": "TruncatedDateTimeType|optional"
-    }
+    },
+    "childelements": ""
   },
   "service_3": {
     "name": "service",
@@ -4934,7 +5144,8 @@
       "pubconstrainturi": "IRIListType|optional",
       "qcode": "QCodeType|NA",
       "uri": "IRIType|optional"
-    }
+    },
+    "childelements": "name|hierarchyInfo|"
   },
   "edNote_3": {
     "name": "edNote",
@@ -4955,7 +5166,8 @@
       "media": "xs:NMTOKENS|optional",
       "role": "QCodeListType|optional",
       "roleuri": "IRIType|NA"
-    }
+    },
+    "childelements": "a|span|ruby|br|inline|"
   },
   "newsContentCharacteristics": {
     "name": "newsContentCharacteristics",
@@ -5020,7 +5232,8 @@
       "videoscalinguri": "IRIType|optional",
       "videodefinition": "QCodeType|optional",
       "videodefinitionuri": "IRIType|optional"
-    }
+    },
+    "childelements": ""
   },
   "planningExtProperty": {
     "name": "planningExtProperty",
@@ -5051,7 +5264,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "newsCoverageExtProperty": {
     "name": "newsCoverageExtProperty",
@@ -5082,7 +5296,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "delivery": {
     "name": "delivery",
@@ -5098,7 +5313,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": "deliveredItemRef|"
   },
   "deliveredItemRef": {
     "name": "deliveredItemRef",
@@ -5136,7 +5352,8 @@
       "rel": "QCodeType|optional",
       "reluri": "IRIType|optional",
       "rank": "xs:nonNegativeInteger|optional"
-    }
+    },
+    "childelements": ""
   },
   "hopHistory": {
     "name": "hopHistory",
@@ -5163,7 +5380,8 @@
       "targeturi": "IRIType|NA",
       "timestamp": "DateOptTimeType|NA",
       "seq": "xs:nonNegativeInteger|NA"
-    }
+    },
+    "childelements": "hop|"
   },
   "hop": {
     "name": "hop",
@@ -5190,7 +5408,8 @@
       "targeturi": "IRIType|NA",
       "timestamp": "DateOptTimeType|NA",
       "seq": "xs:nonNegativeInteger|NA"
-    }
+    },
+    "childelements": "party|action|"
   },
   "party": {
     "name": "party",
@@ -5213,7 +5432,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|personDetails|organisationDetails|"
   },
   "action": {
     "name": "action",
@@ -5236,7 +5456,8 @@
       "target": "QCodeType|NA",
       "targeturi": "IRIType|NA",
       "timestamp": "DateOptTimeType|NA"
-    }
+    },
+    "childelements": "name|hierarchyInfo|related|"
   },
   "pubHistory": {
     "name": "pubHistory",
@@ -5255,7 +5476,8 @@
       "qcode": "QCodeType|NA",
       "uri": "IRIType|optional",
       "literal": "g2normalizedString|NA"
-    }
+    },
+    "childelements": "published|"
   },
   "published": {
     "name": "published",
@@ -5274,7 +5496,8 @@
       "qcode": "QCodeType|NA",
       "uri": "IRIType|optional",
       "literal": "g2normalizedString|NA"
-    }
+    },
+    "childelements": "timestamp|name|related|publishedExtProperty|"
   },
   "timestamp_2": {
     "name": "timestamp",
@@ -5290,7 +5513,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "publishedExtProperty": {
     "name": "publishedExtProperty",
@@ -5321,7 +5545,8 @@
       "typeuri": "IRIType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "name|definition|note|facet|remoteInfo|hierarchyInfo|sameAs|broader|narrower|related|"
   },
   "br": {
     "name": "br",
@@ -5337,7 +5562,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "a": {
     "name": "a",
@@ -5360,7 +5586,8 @@
       "hreflang": "xs:string|optional",
       "rel": "xs:string|optional",
       "rev": "xs:string|optional"
-    }
+    },
+    "childelements": "inline|span|ruby|"
   },
   "span": {
     "name": "span",
@@ -5379,7 +5606,8 @@
       "dir": "NA|optional",
       "xml:lang": "NA|optional",
       "class": "xs:string|optional"
-    }
+    },
+    "childelements": "ruby|"
   },
   "inline": {
     "name": "inline",
@@ -5406,7 +5634,8 @@
       "relevance": "Int100Type|optional",
       "derivedfrom": "QCodeListType|optional",
       "class": "xs:string|optional"
-    }
+    },
+    "childelements": "span|ruby|"
   },
   "ruby": {
     "name": "ruby",
@@ -5424,19 +5653,23 @@
       "pubconstrainturi": "IRIListType|optional",
       "dir": "NA|optional",
       "xml:lang": "NA|optional"
-    }
+    },
+    "childelements": "rb|rt|rp|rt|rp|"
   },
   "rb": {
     "name": "rb",
-    "attributes": {}
+    "attributes": {},
+    "childelements": ""
   },
   "rp": {
     "name": "rp",
-    "attributes": {}
+    "attributes": {},
+    "childelements": ""
   },
   "rt": {
     "name": "rt",
-    "attributes": {}
+    "attributes": {},
+    "childelements": ""
   },
   "rDate": {
     "name": "rDate",
@@ -5452,7 +5685,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "rRule": {
     "name": "rRule",
@@ -5482,7 +5716,8 @@
       "byweekno": "NA|optional",
       "bysetpos": "NA|optional",
       "wkst": "NA|optional"
-    }
+    },
+    "childelements": ""
   },
   "exDate": {
     "name": "exDate",
@@ -5498,7 +5733,8 @@
       "whyuri": "IRIType|optional",
       "pubconstraint": "QCodeListType|optional",
       "pubconstrainturi": "IRIListType|optional"
-    }
+    },
+    "childelements": ""
   },
   "exRule": {
     "name": "exRule",
@@ -5528,6 +5764,7 @@
       "byweekno": "NA|optional",
       "bysetpos": "NA|optional",
       "wkst": "NA|optional"
-    }
+    },
+    "childelements": ""
   }
 }
