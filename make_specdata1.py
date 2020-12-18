@@ -91,28 +91,6 @@ def complextypes_childelemnames(xsroot):
     return ng2cplxtypes
 
 
-def get_allchildelems(xsroot, parentnode):
-    # prerequisite: the lists of child elements in a complex type
-    ng2cplxtypedata = complextypes_childelemnames(xsroot)
-    childelemnames = []
-    # check for child elements of base type
-    for xsextension in parentnode.findall('.//xs:extension', NS):
-        if 'base' in xsextension.attrib:
-            basetypename = xsextension.attrib['base']
-            if basetypename in ng2cplxtypedata:
-                for childelemname in ng2cplxtypedata[basetypename]:
-                    childelemnames.append(childelemname)
-
-    # check for inline child elements
-    for childelem in parentnode.findall('.//xs:element', NS):
-        if 'name' in childelem.attrib:
-            childelemnames.append(childelem.attrib['name'])
-        if 'ref' in childelem.attrib:
-            childelemnames.append(childelem.attrib['ref'])
-
-    return childelemnames
-
-
 def get_childelemdata(xsroot, testroot):
     childdatastr = ''
     # process the testroot if its an element with type
@@ -132,6 +110,23 @@ def get_childelemdata(xsroot, testroot):
                 childdatastr += achild.attrib['name'] + '|'
             if 'ref' in achild.attrib:
                 childdatastr += achild.attrib['ref'] + '|'
+        if elemtag == XSNS + 'any':
+            anyelemstr = '$any:'
+            if 'namespace' in achild.attrib:
+                anyelemstr += achild.attrib['namespace'] + ':'
+            else:
+                anyelemstr += ':'
+            if 'processContents' in achild.attrib:
+                anyelemstr += achild.attrib['processContents'] + ':'
+            else:
+                anyelemstr += ':'
+            if 'minOccurs' in achild.attrib:
+                anyelemstr += achild.attrib['minOccurs'] + ':'
+            else:
+                anyelemstr += ':'
+            if 'maxOccurs' in achild.attrib:
+                anyelemstr += achild.attrib['maxOccurs']
+            childdatastr += anyelemstr + '|'
         if elemtag == XSNS + 'sequence':
             addlchilddata = get_childelemdata(xsroot, achild)
             childdatastr += addlchilddata
